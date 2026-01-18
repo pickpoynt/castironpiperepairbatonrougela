@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock, Award } from "lucide-react";
-import heroImage from "@/assets/hero-well-pump.png";
+import heroImage from "@/assets/hero-balcony.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Professional well pump replacement and pressure tank installation"
+          alt="Professional balcony drain leak detection and repair"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,18 +20,18 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Overland Park's Trusted Well Experts
+              Austin's Premier Leak Experts
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Well Pump Replacement in Overland Park, KS
-            <span className="block text-gradient-copper mt-2">Expert Repair.</span>
+            Balcony Drain Leak Detection in Austin, TX
+            <span className="block text-gradient-copper mt-2">Stop the Damage.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            No water? Low pressure? We specialize in 24/7 emergency well pump replacement
-            and repair. Keeping your home's water flowing with professional, reliable service.
+            Hidden leaks under your balcony or patio can cause catastrophic structural damage.
+            We use advanced non-invasive technology to pinpoint balcony drain leaks with 100% accuracy.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

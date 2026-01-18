@@ -1,35 +1,35 @@
-import { Shield, Users, ThumbsUp, Clock, DollarSign, Hammer } from "lucide-react";
+import { Search, Shield, DollarSign, Clock, ThumbsUp, Hammer } from "lucide-react";
 
 const reasons = [
   {
-    icon: Users,
-    title: "Overland Park Local Pros",
-    description: "Serving Johnson County and surrounding areas with fast, specialized well care.",
+    icon: Search,
+    title: "Non-Invasive Technology",
+    description: "We use infrared and ultrasonic tools to find leaks without tearing up your balcony tiles or decking.",
   },
   {
     icon: Shield,
-    title: "24/7 Emergency Service",
-    description: "We know no water is a true emergency. We're available day or night to restore your flow.",
+    title: "Prevent Structural Failure",
+    description: "Balcony leaks often lead to wood rot and steel corrosion. We stop the damage before it's too late.",
   },
   {
     icon: DollarSign,
-    title: "Upfront Fixed Pricing",
-    description: "No hidden fees. We provide clear, honest quotes before any work begins on your well.",
+    title: "Precise Repair Mapping",
+    description: "We don't just find the leak; we mark the exact area requiring repair, saving you thousands in unnecessary reconstruction.",
   },
   {
     icon: Clock,
-    title: "Fast Response Time",
-    description: "Most well pump replacements are completed the same day you call us.",
+    title: "Prompt Local Service",
+    description: "Serving the entire Austin metro area with fast response times for multi-family and residential properties.",
   },
   {
     icon: ThumbsUp,
-    title: "All Brands Serviced",
-    description: "Certified expertise with Goulds, Grundfos, Franklin Electric, and more.",
+    title: "Expert Documentation",
+    description: "We provide detailed photographic reports of our findings for insurance claims or structural engineers.",
   },
   {
     icon: Hammer,
-    title: "Lifetime Support",
-    description: "We don't just install and leave. We provide ongoing support for your well water system.",
+    title: "Holistic Solutions",
+    description: "We don't just patch; we identify the root cause, whether it's poor drainage, failed flashing, or membrane issues.",
   },
 ];
 
@@ -43,29 +43,29 @@ const WhyUs = () => {
               Why Choose Us
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Overland Park's Premier
-              <span className="text-gradient-copper block">Well Water Service Team</span>
+              Austin's Premier
+              <span className="text-gradient-copper block">Balcony Leak Specialists</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              We specialize exclusively in well water systems. While general plumbers might say
-              they 'do it all,' we focus on the complex electrical and mechanical components of
-              modern high-efficiency well pumps and tanks.
+              We specialize exclusively in high-complexity leak detection. While general plumbers
+              deal with pipes, we focus on the intersection of plumbing, waterproofing,
+              and structural integrity to save your balcony or terrace from water damage.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1,500+</span>
-                <span className="text-sm text-muted-foreground">Wells Serviced</span>
+                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
+                <span className="text-sm text-muted-foreground">Balconies Inspected</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">20+</span>
+                <span className="text-4xl font-heading font-bold text-copper block">12+</span>
                 <span className="text-sm text-muted-foreground">Years Experience</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">A+</span>
-                <span className="text-sm text-muted-foreground">BBB Rating</span>
+                <span className="text-4xl font-heading font-bold text-copper block">99%</span>
+                <span className="text-sm text-muted-foreground">Accuracy Rate</span>
               </div>
             </div>
           </div>

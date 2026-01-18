@@ -7,32 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How long does a well pump typically last?",
-    answer: "Most high-quality submersible pumps last between 10 and 15 years. Factors like water quality, pump sizing, and the frequency of cycling (how often it turns on and off) can significantly impact this lifespan."
+    question: "Do you have to break my balcony tiles to find the leak?",
+    answer: "No. We specialize in non-destructive testing. Using infrared sensors and electronic moisture mapping, we can locate leaks behind or under your tiles without any demolition."
   },
   {
-    question: "My water just stopped. Is it definitely the pump?",
-    answer: "Not necessarily. It could be a tripped circuit breaker, a failed pressure switch, or a problem with the pressure tank. We perform a full diagnostic to identify the exact cause before recommending a replacement."
+    question: "What is the most common cause of balcony leaks?",
+    answer: "Most leaks stem from failed balcony drain flashings or degraded waterproofing membranes at the threshold of the balcony doors."
   },
   {
-    question: "How long does it take to replace a well pump?",
-    answer: "A standard submersible pump replacement usually takes 3 to 5 hours. We carry most common pump sizes and components on our trucks, allowing us to restore your water the same day in most cases."
+    question: "How long does a leak detection inspection take?",
+    answer: "A standard balcony leak inspection typically takes 1 to 2 hours, depending on the size of the area and the complexity of the drainage system."
   },
   {
-    question: "What is the benefit of a constant pressure system?",
-    answer: "Unlike traditional systems that have 'on' and 'off' cycles, constant pressure systems (VFDs) adjust the pump speed to provide steady, city-like pressure even when multiple faucets are running simultaneously."
+    question: "Why can't my regular plumber find the leak?",
+    answer: "Standard plumbing leak detection tools are designed for pressurized pipes. Balcony leaks are usually gravity-fed 'structural' leaks that require specialized surface-scanning technology."
   },
   {
-    question: "Do you service shallow well jet pumps too?",
-    answer: "Yes! While deep well submersibles are more common in Overland Park, we also service and replace shallow well jet pumps and their associated piping and controls."
+    question: "Do you provide a report for my HOA or Insurance?",
+    answer: "Yes. Every inspection includes a detailed digital report with thermal images and annotated photos that can be used for insurance claims or contractor bids."
   },
   {
-    question: "How do I know if my pressure tank is bad?",
-    answer: "The most common sign is 'short-cycling,' where the pump turns on and off every few seconds while you're using water. You might also notice fluctuating water pressure or a clicking sound coming from the switch."
-  },
-  {
-    question: "Do you offer emergency well service on weekends?",
-    answer: "Absolutely. We know a lack of water is an urgent issue. We offer 24/7 emergency repair services to the Overland Park and Johnson County area."
+    question: "Is water on my ceiling always from the balcony?",
+    answer: "Not always, but it's the most likely culprit if it appears after rain. We perform 'flood tests' on the balcony to confirm the source before you commit to repairs."
   }
 ];
 
@@ -42,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Well Water FAQ – Overland Park, KS
+            Balcony Leak FAQ – Austin, TX
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Get professional answers to common questions about well pump replacement, pressure tanks, and system maintenance in Johnson County.
+            Find answers to common questions about balcony drain leaks, infrared detection, and structural waterproofing in Central Texas.
           </p>
         </div>
 
