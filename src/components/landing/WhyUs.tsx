@@ -1,35 +1,35 @@
-import { Shield, Droplets, DollarSign, Clock, ThumbsUp, Wrench } from "lucide-react";
+import { Shield, Droplets, DollarSign, Smartphone, ThumbsUp, Wrench } from "lucide-react";
 
 const reasons = [
   {
     icon: Shield,
-    title: "Leak-Free Guarantee",
-    description: "Our precision installation and premium materials ensure your new pot filler remains leak-free for years to come.",
-  },
-  {
-    icon: Droplets,
-    title: "Convenient Luxury",
-    description: "Eliminate the strain of carrying heavy, water-filled pots. Enjoy a more ergonomic and efficient cooking experience.",
+    title: "Prevent Water Damage",
+    description: "Avoid the devastating costs of water damage with a system that shuts off the water before a minor leak becomes a catastrophe.",
   },
   {
     icon: DollarSign,
-    title: "Home Value Enhancement",
-    description: "Modern kitchen upgrades like pot fillers are highly attractive to buyers and significantly boost your home's appeal.",
+    title: "Insurance Discounts",
+    description: "Many insurance providers offer premium discounts for homes equipped with professionally installed smart water shutoff valves.",
   },
   {
-    icon: Clock,
-    title: "Rapid Installation",
-    description: "Most pot filler installations, including water line extensions, are completed in just a few hours with minimal disruption.",
+    icon: Smartphone,
+    title: "Total Remote Control",
+    description: "Turn your water on or off from anywhere in the world using your smartphone, perfect for when you're traveling or away.",
+  },
+  {
+    icon: Droplets,
+    title: "Water Usage Insights",
+    description: "Monitor your home's water consumption in real-time, identifying high-usage fixtures and helping you save on your monthly bill.",
   },
   {
     icon: ThumbsUp,
-    title: "Expert Local Plumbers",
-    description: "Our licensed Round Rock plumbers have extensive experience installing high-end kitchen fixtures with precision.",
+    title: "Licensed Master Plumbers",
+    description: "Our Round Rock plumbing team is factory-trained to install and configure all major smart plumbing brands correctly.",
   },
   {
     icon: Wrench,
-    title: "All Brands Serviced",
-    description: "From Delta and Moen to luxury designer brands, we handle the installation and mounting of all pot filler models.",
+    title: "Whole-Home Protection",
+    description: "One single valve protects your entire house, including pipes behind walls, appliances, and fixtures in every room.",
   },
 ];
 
@@ -40,32 +40,32 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Modern Kitchens
+              Advanced Protection
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Round Rock's Choice for
-              <span className="text-gradient-copper block">Kitchen Plumbing Luxury</span>
+              Round Rock's Leader in
+              <span className="text-gradient-copper block">Smart Water Security</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              A pot filler is more than just a faucet; it's a statement of convenience and
-              style. We bring technical expertise and aesthetic precision to every
-              installation in the Round Rock area.
+              In a modern home, plumbing should be as smart as your thermostat. We specialize
+              in bringing cutting-edge leak detection and automated shutoff technology to
+              homes across the Round Rock area, providing unparalleled peace of mind.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">750+</span>
-                <span className="text-sm text-muted-foreground">Kitchens Upgraded</span>
+                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
+                <span className="text-sm text-muted-foreground">Systems Installed</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">10+</span>
+                <span className="text-4xl font-heading font-bold text-copper block">12+</span>
                 <span className="text-sm text-muted-foreground">Years Experience</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">5.0</span>
-                <span className="text-sm text-muted-foreground">Google Rating</span>
+                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
+                <span className="text-sm text-muted-foreground">Damage Prevented</span>
               </div>
             </div>
           </div>

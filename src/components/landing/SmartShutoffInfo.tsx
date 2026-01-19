@@ -1,64 +1,64 @@
-import { Droplets, Wrench, Clock, Shield, CheckCircle2 } from "lucide-react";
+import { Droplets, Wrench, Clock, Shield, CheckCircle2, Smartphone } from "lucide-react";
 
-const warningSignsData = [
+const infoData = [
   {
     icon: Droplets,
-    title: "Water Line Access",
-    description: "The most critical step is routing a cold water line through the wall to the exact height and position above your cooktop.",
+    title: "Instant Leak Detection",
+    description: "The system monitors water flow 24/7. If it detects an unusual flow pattern or a sudden burst, it identifies the leak in real-time.",
   },
   {
-    icon: Wrench,
-    title: "Structural Bracing",
-    description: "Pot fillers are heavy and experience significant leverage. We install solid wood bracing behind the wall for a rock-solid mount.",
+    icon: Shield,
+    title: "Automated Main Shutoff",
+    description: "In the event of a major leak, the valve automatically closes, stopping the water at the source and preventing flood damage.",
   },
   {
-    icon: Clock,
-    title: "Height Precision",
-    description: "We work with you to determine the perfect height based on your tallest stockpot and the clearance of your range hood.",
+    icon: Smartphone,
+    title: "Mobile App Integration",
+    description: "Receive instant notifications on your phone, track your water usage, and even shut off your water remotely while away.",
   },
 ];
 
 const benefitsData = [
-  "Drastically reduces physical strain while cooking",
-  "Professional-grade kitchen functionality",
-  "Sleek, modern aesthetic for luxury homes",
-  "High-flow rate for rapid pot filling",
-  "Dual-jointed arms for maximum reach",
-  "Certified leak-proof water line extension",
+  "Prevents catastrophic flood and water damage",
+  "May lower home insurance premiums",
+  "Monitors for small 'pinhole' leaks",
+  "Provides real-time water usage data",
+  "Easy remote control via smartphone app",
+  "Peace of mind while traveling or away",
 ];
 
-const PotFillerInfo = () => {
+const SmartShutoffInfo = () => {
   return (
-    <section id="potfiller-info" className="py-24 bg-gradient-hero">
+    <section id="smart-shutoff-info" className="py-24 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-            Culinary Convenience
+            Advanced Home Protection
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-            Professional Pot Filler Installation in Round Rock
+            Smart Water Protection for Your Round Rock Home
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            Thinking about adding a pot filler to your kitchen renovation? It's one of the
-            most sought-after luxury upgrades for serious home cooks in Central Texas.
+            Invest in the ultimate defense against one of the most common causes of home
+            insurance claims. Our smart water shutoff systems offer proactive protection.
           </p>
         </div>
 
         {/* Info Cards */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {warningSignsData.map((sign, index) => (
+          {infoData.map((info, index) => (
             <div
               key={index}
               className="bg-card rounded-xl p-8 shadow-lg border border-border hover:border-copper/30 transition-all duration-300"
             >
               <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center mb-6">
-                <sign.icon className="w-7 h-7 text-copper" />
+                <info.icon className="w-7 h-7 text-copper" />
               </div>
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                {sign.title}
+                {info.title}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                {sign.description}
+                {info.description}
               </p>
             </div>
           ))}
@@ -70,23 +70,23 @@ const PotFillerInfo = () => {
             <div className="flex items-center gap-3 mb-6">
               <Shield className="w-8 h-8 text-copper" />
               <h3 className="text-2xl font-heading font-bold text-foreground">
-                Seamless Integration
+                Expert Installation & Setup
               </h3>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Installing a pot filler on an existing wall requires surgical precision. Our
-              Round Rock plumbers specialize in running new water lines with minimal
-              impact on your backsplash and cabinetry.
+              Our Round Rock plumbers don't just 'install' the valve. We perform a
+              complete system integration, ensuring your smart valve is perfectly
+              calibrated to your home's unique plumbing fingerprints.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Whether you're in Brushy Creek, Teravista, or Forest Creek, we bring
-              top-tier plumbing expertise to help you build the gourmet kitchen of your dreams.
+              From Teravista to Brushy Creek and Mayfield Ranch, we help Round Rock
+              homeowners protect their most valuable assets with professional-grade technology.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
             <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-              Why Install a Pot Filler?
+              Why Upgrade to Smart Protection?
             </h3>
             <ul className="space-y-4">
               {benefitsData.map((benefit, index) => (
@@ -104,9 +104,9 @@ const PotFillerInfo = () => {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
-            <Wrench className="w-6 h-6 text-copper" />
+            <Smartphone className="w-6 h-6 text-copper" />
             <span className="text-primary-foreground font-medium text-lg">
-              Ready to upgrade your kitchen? Call us at +18777921410 for a custom installation quote.
+              Ready to automate your home's water security? Call (877) 792-1410 for a free consultation.
             </span>
           </div>
         </div>
@@ -115,4 +115,4 @@ const PotFillerInfo = () => {
   );
 };
 
-export default PotFillerInfo;
+export default SmartShutoffInfo;

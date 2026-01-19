@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Do I need a plumber to install a pot filler?",
-    answer: "Yes. Pot fillers require running a primary cold water line through the wall. Improper installation can lead to hidden leaks behind your backsplash, causing major structural damage."
+    question: "What is a smart water shutoff valve?",
+    answer: "It's an automated valve installed on your main water line that uses sensors and algorithms to detect unusual water flow. If a leak is detected, it can automatically shut off your water supply and alert you via a smartphone app."
   },
   {
-    question: "How high should a pot filler be mounted?",
-    answer: "Typically, we mount pot fillers 12 to 14 inches above the cooktop surface, but we customize this based on your stockpot sizes and range hood clearance."
+    question: "Do I need a plumber to install it?",
+    answer: "Yes. Installation involves cutting into your main water line, which requires a licensed professional to ensure a leak-proof connection and proper calibration of the digital sensors."
   },
   {
-    question: "Can you install a pot filler on an existing wall?",
-    answer: "Absolutely. Our Round Rock specialists use advanced techniques to route plumbing with minimal damage to your existing drywall or tile backsplash."
+    question: "Does it work if the power goes out?",
+    answer: "Most high-end smart shutoff valves, like Flo by Moen or Phyn, come with battery backup options or are designed to fail-safe, ensuring your home remains protected even during power outages."
   },
   {
-    question: "How long does the installation take?",
-    answer: "A standard installation, including running the water line and mounting the fixture, typically takes 3 to 5 hours depending on your kitchen's layout."
+    question: "Can it detect small leaks?",
+    answer: "Absolutely. These systems are highly sensitive and can detect 'pinhole' leaks (as small as a drop per minute) that traditional leak detectors might miss, helping you prevent long-term mold and structural damage."
   },
   {
-    question: "What is the benefit of a dual-jointed pot filler?",
-    answer: "Dual joints allow the faucet to fold completely flat against the wall when not in use and extend to reach every burner on your stove."
+    question: "Will it lower my home insurance?",
+    answer: "Many major insurance companies in Round Rock offer discounts or rebates for homeowners who have professionally installed smart water shutoff systems, as they significantly reduce the risk of water damage claims."
   },
   {
-    question: "Do you provide the faucet or should I buy it?",
-    answer: "We can do both! We can supply professional-grade fixtures or expertly install any high-end pot filler you have already purchased for your Round Rock home."
+    question: "Is it compatible with my smart home?",
+    answer: "Most modern smart valves integrate seamlessly with popular platforms like Amazon Alexa, Google Home, and Apple HomeKit, allowing you to monitor your water system alongside your other smart devices."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Pot Filler FAQ – Round Rock, TX
+            Smart Water Shutoff FAQ – Round Rock, TX
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Find answers to common questions about pot filler plumbing, installation height, and kitchen modernization in Central Texas.
+            Find answers to common questions about automated leak detection, smart valve installation, and home water security in Central Texas.
           </p>
         </div>
 

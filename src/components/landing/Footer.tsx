@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">RR</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">RS</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Round Rock Pot Fillers
+                  Round Rock Smart Plumbing
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Kitchen Plumbing Specialists</p>
+                <p className="text-xs text-primary-foreground/60">Automated Leak Protection</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Round Rock's premier destination for professional pot filler installations.
-              Bringing luxury and convenience to modern Central Texas kitchens.
+              Round Rock's leading experts in smart plumbing technology. Protecting
+              Texas homes with advanced leak detection and automated shutoff solutions.
             </p>
             <div className="flex gap-4">
               <a
@@ -28,7 +28,7 @@ const Footer = () => {
                 className="flex items-center gap-2 text-copper-light hover:text-copper transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                +18777921410
+                (877) 792-1410
               </a>
             </div>
           </div>
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Water Line Extensions
+                  Smart Valve Install
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Faucet Mounting
+                  Leak Detection
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Kitchen Rewiring
+                  App Integration
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Plumbing Audits
+                  Water Monitoring
                 </a>
               </li>
             </ul>
@@ -71,13 +71,13 @@ const Footer = () => {
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
                 <a href="tel:+18777921410" className="hover:text-copper-light transition-colors">
-                  +18777921410
+                  (877) 792-1410
                 </a>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:info@roundrockpotfillers.com" className="hover:text-copper-light transition-colors">
-                  info@roundrockpotfillers.com
+                <a href="mailto:info@roundrocksmartplumbing.com" className="hover:text-copper-light transition-colors">
+                  info@roundrocksmartplumbing.com
                 </a>
               </li>
             </ul>
@@ -127,7 +127,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Round Rock Pot Fillers. All rights reserved.
+            © {new Date().getFullYear()} Round Rock Smart Plumbing. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">
