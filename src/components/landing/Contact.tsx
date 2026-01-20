@@ -11,13 +11,13 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Contact Round Rock's Smart Plumbing Experts
-              <span className="text-gradient-copper block">Protect Your Home Today</span>
+              Contact Malvern's Basement Protection Experts
+              <span className="text-gradient-copper block">Secure Your Basement Today</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Ready to automate your home's water security? Contact our Round Rock
-              plumbers for a professional smart water shutoff valve installation
-              and leak detection system setup.
+              Don't wait for the next storm to test your sump pump. Contact our Malvern
+              plumbing team for a professional battery backup installation or a
+              comprehensive basement flood protection audit.
             </p>
 
             <div className="space-y-6">
@@ -35,7 +35,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:info@roundrocksmartplumbing.com"
+                href="mailto:info@malvernbasementprotection.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">info@roundrocksmartplumbing.com</span>
+                  <span className="font-heading font-bold text-foreground">info@malvernbasementprotection.com</span>
                 </div>
               </a>
 
@@ -53,7 +53,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Round Rock, Brushy Creek, Teravista & Forest Creek</span>
+                  <span className="font-heading font-semibold text-foreground">Malvern, Paoli, Frazer, Charlestown & Willistown</span>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Sat: 8:00 AM - 7:00 PM | Priority Smart Home Support</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Sat: 7:00 AM - 8:00 PM | 24/7 Emergency Storm Support</span>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request a Smart Home Consultation
+              Request a Backup System Consultation
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -126,13 +126,13 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell Us About Your Home
+                  Tell Us About Your Basement
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="Are you looking for a specific brand? Do you already have a smart home hub?"
+                  placeholder="Do you have an existing sump pump? Has your basement flooded before?"
                 />
               </div>
 

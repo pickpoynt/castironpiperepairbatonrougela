@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "What is a smart water shutoff valve?",
-    answer: "It's an automated valve installed on your main water line that uses sensors and algorithms to detect unusual water flow. If a leak is detected, it can automatically shut off your water supply and alert you via a smartphone app."
+    question: "How long does a sump pump battery last?",
+    answer: "A fully charged high-quality battery can typically run a backup pump for 5-7 hours of continuous pumping, or up to several days if the pump only cycles occasionally during a power outage."
   },
   {
-    question: "Do I need a plumber to install it?",
-    answer: "Yes. Installation involves cutting into your main water line, which requires a licensed professional to ensure a leak-proof connection and proper calibration of the digital sensors."
+    question: "Do I need a battery backup if I have a generator?",
+    answer: "Yes. Generators can take time to start or fail to engage. A battery backup provides instant protection the moment power is lost, acting as a critical bridge until your generator takes over."
   },
   {
-    question: "Does it work if the power goes out?",
-    answer: "Most high-end smart shutoff valves, like Flo by Moen or Phyn, come with battery backup options or are designed to fail-safe, ensuring your home remains protected even during power outages."
+    question: "Can I install a battery backup on my existing pump?",
+    answer: "In most cases, yes. We can install a secondary backup pump in the same basin as your current primary pump, provided there is enough physical space for the secondary unit and float switch."
   },
   {
-    question: "Can it detect small leaks?",
-    answer: "Absolutely. These systems are highly sensitive and can detect 'pinhole' leaks (as small as a drop per minute) that traditional leak detectors might miss, helping you prevent long-term mold and structural damage."
+    question: "How often should I test my backup system?",
+    answer: "We recommend testing your backup system every 3-4 months by pouring water into the basin to ensure the backup pump engages and discharge lines are clear."
   },
   {
-    question: "Will it lower my home insurance?",
-    answer: "Many major insurance companies in Round Rock offer discounts or rebates for homeowners who have professionally installed smart water shutoff systems, as they significantly reduce the risk of water damage claims."
+    question: "What is an AGM battery?",
+    answer: "Absorbent Glass Mat (AGM) batteries are maintenance-free, leak-proof, and designed to sit for long periods while maintaining a charge, making them ideal for emergency sump pump applications."
   },
   {
-    question: "Is it compatible with my smart home?",
-    answer: "Most modern smart valves integrate seamlessly with popular platforms like Amazon Alexa, Google Home, and Apple HomeKit, allowing you to monitor your water system alongside your other smart devices."
+    question: "Do you offer emergency sump pump service in Malvern?",
+    answer: "Yes! Malvern Basement Protection provides priority emergency service for sump pump failures throughout Malvern, Paoli, and the surrounding Main Line communities."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Smart Water Shutoff FAQ – Round Rock, TX
+            Sump Pump & Backup FAQ – Malvern, PA
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Find answers to common questions about automated leak detection, smart valve installation, and home water security in Central Texas.
+            Get professional answers to common questions about basement flood protection, battery backup systems, and emergency plumbing in Chester County.
           </p>
         </div>
 

@@ -1,24 +1,24 @@
-import { ShieldCheck, Smartphone, Droplets, CheckCircle, ArrowRight } from "lucide-react";
+import { Battery, ShieldCheck, Activity, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Droplets,
-    title: "Whole-Home Leak Detection",
-    description: "Installation of ultrasonic sensors that monitor your entire home's plumbing 24/7, detecting even micro-leaks before they cause damage.",
-    features: ["24/7 Monitoring", "Micro-leak detection", "App alerts"],
+    icon: Battery,
+    title: "Battery Backup Install",
+    description: "Installation of high-capacity DC-powered backup pumps that take over automatically when your primary pump fails or the power goes out.",
+    features: ["Reliable power source", "Automatic activation", "Dual pump systems"],
   },
   {
     icon: ShieldCheck,
-    title: "Automated Shutoff Valve",
-    description: "Precision installation of smart valves that automatically shut off your main water supply the moment a leak is detected.",
-    features: ["Instant response", "Remote control", "Battery backup"],
+    title: "Primary Pump Upgrade",
+    description: "Replacing aging or underpowered main sump pumps with modern, high-efficiency models from industry leaders like Zoeller and Liberty.",
+    features: ["Cast-iron construction", "High-flow capacity", "Quiet operation"],
   },
   {
-    icon: Smartphone,
-    title: "Smart Home Integration",
-    description: "Full setup and calibration of smart plumbing apps on your devices, ensuring seamless connectivity with your home automation system.",
-    features: ["System calibration", "App walkthrough", "Connectivity test"],
+    icon: Activity,
+    title: "Sump Health Inspection",
+    description: "Detailed diagnostic check of your basin, discharge lines, and check valves to ensure your entire system is ready for heavy rain.",
+    features: ["Float switch testing", "Line cleaning", "Check valve audit"],
   },
 ];
 
@@ -28,13 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Smart Solutions
+            Basement Security
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Round Rock's Smart Plumbing Specialists
+            Malvern's Sump Pump & Flood Protection Pros
           </h2>
           <p className="text-muted-foreground text-lg">
-            Don't let a hidden leak ruin your home. Our expert plumbers provide professional installation of the industry's leading smart water protection systems.
+            A dry basement starts with a reliable sump pump system. Our experts provide
+            heavy-duty backup solutions tailored for Malvern's unique landscape.
           </p>
         </div>
 
@@ -49,7 +50,7 @@ const Services = () => {
               </div>
 
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                {service.title} in Round Rock
+                {service.title} in Malvern
               </h3>
 
               <p className="text-muted-foreground mb-6">

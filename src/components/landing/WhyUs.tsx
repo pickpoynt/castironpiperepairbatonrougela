@@ -1,35 +1,35 @@
-import { Shield, Droplets, DollarSign, Smartphone, ThumbsUp, Wrench } from "lucide-react";
+import { Shield, ShieldAlert, Zap, Waves, ThumbsUp, Wrench } from "lucide-react";
 
 const reasons = [
   {
     icon: Shield,
-    title: "Prevent Water Damage",
-    description: "Avoid the devastating costs of water damage with a system that shuts off the water before a minor leak becomes a catastrophe.",
+    title: "Double the Protection",
+    description: "A battery backup adds a vital second layer of defense, ensuring your basement stays dry even if your primary pump fails.",
   },
   {
-    icon: DollarSign,
-    title: "Insurance Discounts",
-    description: "Many insurance providers offer premium discounts for homes equipped with professionally installed smart water shutoff valves.",
+    icon: Zap,
+    title: "Power Outage Ready",
+    description: "Most basement flooding occurs during storms when the power goes out. Our backup systems function without AC power.",
   },
   {
-    icon: Smartphone,
-    title: "Total Remote Control",
-    description: "Turn your water on or off from anywhere in the world using your smartphone, perfect for when you're traveling or away.",
+    icon: Waves,
+    title: "High-Water Alarm",
+    description: "Our modern backup systems include built-in audible alarms that notify you the moment your primary pump is struggling.",
   },
   {
-    icon: Droplets,
-    title: "Water Usage Insights",
-    description: "Monitor your home's water consumption in real-time, identifying high-usage fixtures and helping you save on your monthly bill.",
+    icon: ShieldAlert,
+    title: "Prevent Costly Repairs",
+    description: "Basement flood cleanup can cost tens of thousands. A backup system is a small investment that prevents massive losses.",
   },
   {
     icon: ThumbsUp,
-    title: "Licensed Master Plumbers",
-    description: "Our Round Rock plumbing team is factory-trained to install and configure all major smart plumbing brands correctly.",
+    title: "Licensed Malvern Plumbers",
+    description: "Our team lives and works in Chesco, providing rapid response times and expert knowledge of local drainage challenges.",
   },
   {
     icon: Wrench,
-    title: "Whole-Home Protection",
-    description: "One single valve protects your entire house, including pipes behind walls, appliances, and fixtures in every room.",
+    title: "Premium Equipment",
+    description: "We only install professional-grade systems with AGM maintenance-free batteries designed for long-term reliability.",
   },
 ];
 
@@ -40,32 +40,32 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Advanced Protection
+              Emergency Preparedness
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Round Rock's Leader in
-              <span className="text-gradient-copper block">Smart Water Security</span>
+              Malvern's Choice for
+              <span className="text-gradient-copper block">Basement Flood Defense</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              In a modern home, plumbing should be as smart as your thermostat. We specialize
-              in bringing cutting-edge leak detection and automated shutoff technology to
-              homes across the Round Rock area, providing unparalleled peace of mind.
+              In Malvern and the surrounding Main Line areas, heavy rains and aging
+              infrastructure can put your basement at risk. We specialize in rugged
+              sump pump solutions that work when they're needed most.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
-                <span className="text-sm text-muted-foreground">Systems Installed</span>
+                <span className="text-4xl font-heading font-bold text-copper block">1k+</span>
+                <span className="text-sm text-muted-foreground">Pump Installations</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">12+</span>
+                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
                 <span className="text-sm text-muted-foreground">Years Experience</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
-                <span className="text-sm text-muted-foreground">Damage Prevented</span>
+                <span className="text-4xl font-heading font-bold text-copper block">24/7</span>
+                <span className="text-sm text-muted-foreground">Emergency Support</span>
               </div>
             </div>
           </div>
