@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">MGS</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">NWS</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Marietta GenSwitch
+                  Naperville Wire Safe
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Generator Installation Experts</p>
+                <p className="text-xs text-primary-foreground/60">Aluminum Wiring Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Cobb County's trusted electricians for generator interlock kits.
-              We ensure your home is power-ready for any storm or outage.
+              Specializing in the safe remediation of aluminum wiring in Naperville's
+              mid-century neighborhoods. Licensed, insured, and dedicated to your safety.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Interlock Installation
+                  Safety Inspections
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Inlet Box Wiring
+                  Aluminum Remediation
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Generator Consultation
+                  Panel Upgrades
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Breaker Panel Upgrade
+                  Code Compliance
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Marietta & Cobb County, GA</span>
+                <span>Naperville & DuPage County</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:info@marietta-genswitch.com" className="hover:text-copper-light transition-colors">
-                  info@marietta-genswitch.com
+                <a href="mailto:safety@naperville-wire-safe.com" className="hover:text-copper-light transition-colors">
+                  safety@naperville-wire-safe.com
                 </a>
               </li>
             </ul>
@@ -91,28 +91,20 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap gap-x-8 gap-y-2">
             <a
-              href="https://sumppumpbatterybackupinstallationma.vercel.app/"
+              href="https://emergencyslableakdetectionnapervill.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Sump Pump Battery Backup Installation Malden
+              Emergency Slab Leak Detection Naperville
             </a>
             <a
-              href="https://toiletflangerepairtallahassee.netlify.app/"
+              href="https://potfillerfaucetinstallationroundroc.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Toilet Flange Repair Tallahassee
-            </a>
-            <a
-              href="https://trenchlesspiperelininghuntsville.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
-            >
-              Trenchless Pipe Relining Huntsville
+              Pot Filler Faucet Installation Round Rock
             </a>
             <a
               href="https://knobandtubewiringreplacementsavanna.vercel.app/"
@@ -122,12 +114,20 @@ const Footer = () => {
             >
               Knob and Tube Wiring Replacement Savannah
             </a>
+            <a
+              href="https://balconydrainleakdetectionservicesau.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
+            >
+              Balcony Drain Leak Detection Austin
+            </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Marietta GenSwitch. All rights reserved.
+            © {new Date().getFullYear()} Naperville Wire Safe. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

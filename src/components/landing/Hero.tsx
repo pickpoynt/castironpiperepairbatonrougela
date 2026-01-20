@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Homeowner connecting portable generator using an interlock kit in Marietta"
+          alt="Electrician inspecting aluminum wiring in a Naperville home"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,19 +20,19 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Never Be Left in the Dark Again
+              Protect Your Home from Hidden Fire Hazards
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Generator Interlock Installation in Marietta, GA
-            <span className="block text-gradient-copper mt-2">Safe. Affordable. Power.</span>
+            Aluminum Wiring Replacement in Naperville, IL
+            <span className="block text-gradient-copper mt-2">Safe. Reliable. Code-Compliant.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Connect your portable generator to your entire home's breaker panel.
-            Our interlock kits are a safe, code-compliant alternative to expensive
-            transfer switches, letting you run lights, fridges, and HVAC during outages.
+            Was your home built between 1965 and 1973? You may have dangerous aluminum wiring.
+            We provide expert detailed inspections, COPALUM remediation, and full rewiring
+            services to ensure your family's safety.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

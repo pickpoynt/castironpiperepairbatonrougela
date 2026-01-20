@@ -1,35 +1,35 @@
-import { ShieldCheck, CircleDollarSign, Zap, FileCode, ThumbsUp, Timer } from "lucide-react";
+import { ShieldCheck, Flame, Zap, ClipboardCheck, Home, HandMetal } from "lucide-react";
 
 const reasons = [
   {
     icon: ShieldCheck,
-    title: "100% Safe",
-    description: "Interlocks physically prevent dangerous back-feeding of electricity onto utility lines, protecting line workers and your home from fires.",
+    title: "Licensed & Insured",
+    description: "We are fully licensed Illinois electricians with specific certifications in aluminum wiring remediation methods.",
   },
   {
-    icon: CircleDollarSign,
-    title: "Cost Effective",
-    description: "An interlock kit costs a fraction of a whole-house transfer switch or standby generator installation, delivering similar functionality.",
+    icon: Flame,
+    title: "Fire Prevention",
+    description: "Our COPALUM and AlumiConn methods directly address the oxidation and thermal expansion issues that cause electrical fires.",
   },
   {
     icon: Zap,
-    title: "Power Everything",
-    description: "Unlike transfer switches with limited circuits, an interlock lets you choose ANY circuit in your panel to power, up to your generator's limit.",
+    title: "CPSC Approved",
+    description: "We strictly follow Consumer Product Safety Commission guidelines. We don't verify 'purple wire nuts' as a permanent solution.",
   },
   {
-    icon: FileCode,
-    title: "Code Compliant",
-    description: "Our installations meet all National Electrical Code (NEC) requirements and are accepted by local Marietta and Cobb County inspectors.",
+    icon: ClipboardCheck,
+    title: "Detailed Audits",
+    description: "We don't guess. We inspect every outlet, switch, and junction box in your home to ensure 100% coverage.",
   },
   {
-    icon: ThumbsUp,
-    title: "Easy Operation",
-    description: "We provide clear labeling and a simple tutorial, making the switch from utility to generator power a stress-free process.",
+    icon: Home,
+    title: "Minimal Drywall Cut",
+    description: "Our remediation techniques often allow us to fix connections at the device boxes, avoiding the need to tear open your walls.",
   },
   {
-    icon: Timer,
-    title: "Fast Install",
-    description: "Most installations are completed in under 4 hours, meaning we can get you prepared for the next storm often in a single visit.",
+    icon: HandMetal,
+    title: "Copper Pigtailing",
+    description: "We give you the safety of copper connections at every device without the massive expense of a full whole-home rewire.",
   },
 ];
 
@@ -43,29 +43,29 @@ const WhyUs = () => {
               Why Choose Us?
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Marietta's Choice for
-              <span className="text-gradient-copper block">Reliable Backup Power</span>
+              Naperville's Choice for
+              <span className="text-gradient-copper block">Aluminum Remediation</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Don't get left in the dark. We are Marietta's specialists in portable
-              generator connections, providing a safe, legal, and affordable way
-              to keep your lights on when the grid goes down.
+              Don't let the fear of electrical fire keep you up at night. We provide
+              Naperville homeowners with proven, code-compliant solutions to make
+              their vintage homes safe and insurable.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">1k+</span>
-                <span className="text-sm text-muted-foreground">Kits Installed</span>
+                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
+                <span className="text-sm text-muted-foreground">Homes Made Safe</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
                 <span className="text-4xl font-heading font-bold text-copper block">100%</span>
-                <span className="text-sm text-muted-foreground">Code Safe</span>
+                <span className="text-sm text-muted-foreground">Pass Inspection</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">5★</span>
-                <span className="text-sm text-muted-foreground">Local Rating</span>
+                <span className="text-4xl font-heading font-bold text-copper block">A+</span>
+                <span className="text-sm text-muted-foreground">BBB Rating</span>
               </div>
             </div>
           </div>

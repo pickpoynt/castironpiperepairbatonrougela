@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Is an interlock kit legal in Cobb County?",
-    answer: "Yes, generator interlock kits are fully code-compliant (NEC Article 702) and accepted by Cobb County inspectors as a safe way to connect portable generators."
+    question: "Is aluminum wiring illegal in Naperville?",
+    answer: "No, it's not illegal to have it, but it is no longer used for new branch circuits. However, insurance companies may require remediation or inspection to renew your policy."
   },
   {
-    question: "Does it work with any generator?",
-    answer: "It works with any portable generator that has a 30-amp or 50-amp output rating (L14-30 or 14-50 outlet). We install the matching inlet box on your house."
+    question: "Why is aluminum wiring dangerous?",
+    answer: "Aluminum expands more than copper when heated. This movement loosens connections over time, leading to gaps, arcing, and extreme heat that can melt fixtures or start fires."
   },
   {
-    question: "Can I run my AC unit?",
-    answer: "Usually, yes! A minimal 7500-watt generator can often run a central AC unit if you manage other loads. We can install a 'Soft Start' to help smaller generators start AC units."
+    question: "Do I have to rip out all my walls?",
+    answer: "Rarely. Our remediation process fixes the connections at the outlets, switches, and junction boxes. A full rewire is an option but often not necessary for safety."
   },
   {
-    question: "Do I have to move my breaker panel?",
-    answer: "No. The kit installs directly onto your existing panel cover. It’s a mechanical slide that forces you to turn off the Main breaker before turning on the Generator breaker."
+    question: "What is COPALUM crimping?",
+    answer: "It's a specialized, high-pressure cold-weld method approved by the CPSC. It permanently bonds copper to aluminum, making the connection as safe as pure copper."
   },
   {
-    question: "How long does installation take?",
-    answer: "A standard installation in Marietta takes about 3-4 hours. We test everything with you before we leave to ensure you're comfortable using it."
+    question: "Can't I just use regular wire nuts?",
+    answer: "No! Standard wire nuts are unsafe for aluminum-to-copper connections. Even 'purple' nuts can fail. You need specialized AlumiConn lugs or COPALUM crimps."
   },
   {
-    question: "Why is this better than a transfer switch?",
-    answer: "A manual transfer switch only lets you power 6-10 specific circuits. An interlock energizes your ENTIRE panel, giving you the flexibility to turn on any breaker you need."
+    question: "How much does aluminum remediation cost?",
+    answer: "It costs significantly less than a full home rewire. We provide per-device pricing after a thorough audit of your home's electrical system."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Generator Interlock FAQ – Marietta, GA
+            Aluminum Wiring FAQ – Naperville, IL
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Common questions about connecting portable power safely.
-            We make backup power simple and affordable for Marietta homeowners.
+            Honest answers about your home's electrical safety.
+            We help Naperville homeowners satisfy insurance requirements and sleep soundly.
           </p>
         </div>
 
