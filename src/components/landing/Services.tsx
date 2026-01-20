@@ -1,24 +1,24 @@
-import { Search, PlugZap, Repeat, CheckCircle, ArrowRight } from "lucide-react";
+import { Zap, Plug, Wrench, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Search,
-    title: "Safety Inspection",
-    description: "Thorough visual inspection and voltage drop testing of all receptacles, switches, and panels to identify overheating aluminum connections.",
-    features: ["Thermal imaging", "Device check", "Detailed report"],
+    icon: Zap,
+    title: "New Pedestal Installation",
+    description: "Complete installation of outdoor-rated power pedestals with dedicated circuits run from your main panel, including trenching and conduit work.",
+    features: ["Weatherproof units", "Code compliant", "Site prep"],
   },
   {
-    icon: PlugZap,
-    title: "COPALUM Remediation",
-    description: "The gold standard for aluminum wiring repair. We use special high-pressure crimps to permanently bond copper pigtails to your existing aluminum wires.",
-    features: ["CPSC recommended", "Permanent fix", "Less invasive"],
+    icon: Plug,
+    title: "50-Amp Upgrades",
+    description: "Upgrade your existing 30-amp service to 50-amps to power modern, larger RVs with dual AC units and high-demand appliances.",
+    features: ["Heavy gauge wire", "NEMA 14-50R", "Breaker upgrade"],
   },
   {
-    icon: Repeat,
-    title: "Complete Rewiring",
-    description: "For ultimate peace of mind, we can remove old aluminum cabling and replace it with modern, code-compliant copper NM-B wiring throughout your home.",
-    features: ["New copper wire", "Modern grounding", "Resale value"],
+    icon: Wrench,
+    title: "Diagnostics & Repair",
+    description: "Troubleshooting for overheating plugs, tripped breakers, or voltage drops at your existing pedestal to protect your RV's sensitive electronics.",
+    features: ["Voltage testing", "Receptacle replacement", "Safety check"],
   },
 ];
 
@@ -28,15 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Electrical Safety Experts
+            Licensed Electrical Work
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Naperville's Restoration Pros
+            Plano's RV Infrastructure Pros
           </h2>
           <p className="text-muted-foreground text-lg">
-            Aluminum wiring expands and contracts differently than copper, leading to
-            loose connections and fire risks. We have the specialized tools and training
-            to fix it right.
+            Don't risk your rig with DIY wiring or adapters. We provide the
+            professional electrical infrastructure your luxury RV deserves.
           </p>
         </div>
 

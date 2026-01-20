@@ -1,35 +1,35 @@
-import { ShieldCheck, Flame, Zap, ClipboardCheck, Home, HandMetal } from "lucide-react";
+import { ShieldCheck, Ruler, Home, ThumbsUp, Drill, BadgeCheck } from "lucide-react";
 
 const reasons = [
   {
     icon: ShieldCheck,
-    title: "Licensed & Insured",
-    description: "We are fully licensed Illinois electricians with specific certifications in aluminum wiring remediation methods.",
+    title: "Permitted Work",
+    description: "We handle all City of Plano permits and inspections, ensuring your new electrical run meets local codes and setbacks.",
   },
   {
-    icon: Flame,
-    title: "Fire Prevention",
-    description: "Our COPALUM and AlumiConn methods directly address the oxidation and thermal expansion issues that cause electrical fires.",
+    icon: Ruler,
+    title: "Perfect Placement",
+    description: "We work with you to site the pedestal exactly where your RV's power port is located, minimizing cord strain and trip hazards.",
   },
   {
-    icon: Zap,
-    title: "CPSC Approved",
-    description: "We strictly follow Consumer Product Safety Commission guidelines. We don't verify 'purple wire nuts' as a permanent solution.",
-  },
-  {
-    icon: ClipboardCheck,
-    title: "Detailed Audits",
-    description: "We don't guess. We inspect every outlet, switch, and junction box in your home to ensure 100% coverage.",
+    icon: Drill,
+    title: "Trenching Included",
+    description: "We provide complete turnkey service, including trenching and backfilling for the underground conduit run from your house.",
   },
   {
     icon: Home,
-    title: "Minimal Drywall Cut",
-    description: "Our remediation techniques often allow us to fix connections at the device boxes, avoiding the need to tear open your walls.",
+    title: "HOA Friendly",
+    description: "We install low-profile, aesthetic pedestals and restore your landscaping to keep your HOA happy and your property looking great.",
   },
   {
-    icon: HandMetal,
-    title: "Copper Pigtailing",
-    description: "We give you the safety of copper connections at every device without the massive expense of a full whole-home rewire.",
+    icon: ThumbsUp,
+    title: "Voltage Drop Calc",
+    description: "Long runs? No problem. We calculate the correct wire gauge to prevent power loss, ensuring your ACs run efficiently.",
+  },
+  {
+    icon: BadgeCheck,
+    title: "Licensed TECL",
+    description: "Work performed by state-licensed master electricians. Don't trust your $200k motorhome to a handyman.",
   },
 ];
 
@@ -43,29 +43,29 @@ const WhyUs = () => {
               Why Choose Us?
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Naperville's Choice for
-              <span className="text-gradient-copper block">Aluminum Remediation</span>
+              Plano's Choice for
+              <span className="text-gradient-copper block">RV Home Power</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Don't let the fear of electrical fire keep you up at night. We provide
-              Naperville homeowners with proven, code-compliant solutions to make
-              their vintage homes safe and insurable.
+              We are RV owners ourselves. We understand the convenience of being able
+              to plug in at home, whether it's for pre-trip cooling, guest stays, or
+              just keeping your batteries topped off.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
-                <span className="text-sm text-muted-foreground">Homes Made Safe</span>
+                <span className="text-4xl font-heading font-bold text-copper block">200+</span>
+                <span className="text-sm text-muted-foreground">Pedestals Set</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
                 <span className="text-4xl font-heading font-bold text-copper block">100%</span>
-                <span className="text-sm text-muted-foreground">Pass Inspection</span>
+                <span className="text-sm text-muted-foreground">Code Safe</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">A+</span>
-                <span className="text-sm text-muted-foreground">BBB Rating</span>
+                <span className="text-4xl font-heading font-bold text-copper block">5★</span>
+                <span className="text-sm text-muted-foreground">Local Rating</span>
               </div>
             </div>
           </div>

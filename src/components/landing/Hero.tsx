@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock, Award } from "lucide-react";
-import heroImage from "@/assets/hero-wiring.png";
+import heroImage from "@/assets/hero-tankless.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Electrician inspecting aluminum wiring in a Naperville home"
+          alt="Outdoor electrical pedestal installation for RV hookup in Plano"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,19 +20,19 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Protect Your Home from Hidden Fire Hazards
+              Power Your Adventures at Home
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Aluminum Wiring Replacement in Naperville, IL
-            <span className="block text-gradient-copper mt-2">Safe. Reliable. Code-Compliant.</span>
+            RV Pedestal Installation in Plano, TX
+            <span className="block text-gradient-copper mt-2">Convenient. Safe. Reliable.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Was your home built between 1965 and 1973? You may have dangerous aluminum wiring.
-            We provide expert detailed inspections, COPALUM remediation, and full rewiring
-            services to ensure your family's safety.
+            Stop running endless extension cords. We install professional 30-amp and
+            50-amp RV pedestals right in your driveway or backyard, so you can keep
+            your motorhome charged and guest-ready.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">

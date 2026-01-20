@@ -1,47 +1,46 @@
-import { AlertTriangle, Home, FileText, CheckCircle, Flame, Search } from "lucide-react";
+import { Zap, Truck, BatteryCharging, Home, Settings, Plug } from "lucide-react";
 
 const infoData = [
   {
-    icon: Flame,
-    title: "The Fire Risk",
-    description: "Aluminum wiring expands when heated and contracts when cooled. Over time, this loosens connections, causing arcing, sparking, and potentially house fires.",
+    icon: BatteryCharging,
+    title: "Keep Batteries Healthy",
+    description: "Plugging in at home keeps your house batteries fully charged, preventing sulfation and extending their lifespan significantly.",
   },
   {
-    icon: Search,
-    title: "Signs of Trouble",
-    description: "Flickering lights, warm switch plates, buzzing sounds from outlets, or the smell of burning plastic are all immediate warning signs.",
+    icon: Truck,
+    title: "Guest House Ready",
+    description: "Turn your RV into a comfortable, private guest suite for visiting family and friends, complete with AC, lights, and entertainment.",
   },
   {
-    icon: CheckCircle,
-    title: "The Solution",
-    description: "You don't always need a full rewire. Our CPSC-approved pigtailing method permanently bonds copper to aluminum, eliminating the fire hazard.",
+    icon: Zap,
+    title: "Pre-Trip Cooling",
+    description: "Start your fridge and ACs the night before you leave. Load up a cold refrigerator and step into a cool rig on departure day.",
   },
 ];
 
 const benefitsData = [
-  "Restores home safety & peace of mind",
-  "Meets all insurance company requirements",
-  "Fully permitted and inspected work",
-  "Increases property value for resale",
-  "Preventative maintenance saves thousands",
-  "Lifetime warranty on all crimp connections",
+  "No more loud generators in the driveway",
+  "Run both AC units with 50-amp service",
+  "Professional grade, weatherproof pedestals",
+  "Safe charging for lithium & AGM batteries",
+  "Clean, buried conduit installation",
+  "Adds function and value to your home",
 ];
 
-const WireInfo = () => {
+const RVPedestalInfo = () => {
   return (
-    <section id="wire-info" className="py-24 bg-gradient-hero">
+    <section id="rv-info" className="py-24 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-            Mid-Century Home Specialists
+            30 Amp & 50 Amp Service
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-            Understanding the Aluminum Wiring Issue
+            Why Install a dedicated RV Hookup?
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            Built between 1965 and 1973? Your Naperville home likely has aluminum branch wiring.
-            While the wire itself isn't the problem, the connection points are.
-            We fix the connections so you can keep the wire.
+            Using a 15-amp dogbone adapter can melt your outlet and ruin your AC compressor.
+            Get the dedicated power your modern RV needs to function properly while parked at home.
           </p>
         </div>
 
@@ -69,29 +68,29 @@ const WireInfo = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="bg-card rounded-2xl p-8 lg:p-10 shadow-xl border border-border">
             <div className="flex items-center gap-3 mb-6">
-              <FileText className="w-8 h-8 text-copper" />
+              <Settings className="w-8 h-8 text-copper" />
               <h3 className="text-2xl font-heading font-bold text-foreground">
-                Our Remediation Process
+                Our Installation Package
               </h3>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              We start with a comprehensive audit of every electrical point in your house.
-              Using the specialized AlumiConn or COPALUM crimping tools, we refurbish each connection.
+              We start by calculating your load and trenching from your main service panel.
+              We install schedule 40/80 PVC conduit, pull THHN copper wire, and set a dedicated breaker.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Serving Naperville, Lisle, Downers Grove, and Wheaton, we have successfully
-              mitigated hundreds of homes, satisfying both homeowner concerns and insurance demands.
+              The pedestal itself is a high-quality, NEMA 3R weatherproof unit, often with
+              extra 120V GFCI outlets for convenience. We verify proper voltage and polarity before we leave.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
             <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-              Why You Should Act Now
+              The Home Base Advantage
             </h3>
             <ul className="space-y-4">
               {benefitsData.map((benefit, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <AlertTriangle className="w-6 h-6 text-copper flex-shrink-0 mt-0.5" />
+                  <Home className="w-6 h-6 text-copper flex-shrink-0 mt-0.5" />
                   <span className="text-primary-foreground/90 text-lg">
                     {benefit}
                   </span>
@@ -104,9 +103,9 @@ const WireInfo = () => {
         {/* Bottom CTA */}
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
-            <Home className="w-6 h-6 text-copper" />
+            <Plug className="w-6 h-6 text-copper" />
             <span className="text-primary-foreground font-medium text-lg">
-              Schedule your safety inspection today at (844) 901-2684.
+              Get hookup pricing today. Call (844) 901-2684.
             </span>
           </div>
         </div>
@@ -115,4 +114,4 @@ const WireInfo = () => {
   );
 };
 
-export default WireInfo;
+export default RVPedestalInfo;

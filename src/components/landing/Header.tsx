@@ -12,13 +12,13 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-lg bg-gradient-hero flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">NWS</span>
+              <span className="text-primary-foreground font-heading font-bold text-lg">PRP</span>
             </div>
             <div>
               <h1 className="font-heading font-bold text-lg text-foreground leading-tight">
-                Naperville Wire Safe
+                Plano RV Power
               </h1>
-              <p className="text-xs text-muted-foreground">Aluminum Wiring Experts</p>
+              <p className="text-xs text-muted-foreground">Home RV Hookups</p>
             </div>
           </div>
 

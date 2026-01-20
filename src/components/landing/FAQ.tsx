@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Is aluminum wiring illegal in Naperville?",
-    answer: "No, it's not illegal to have it, but it is no longer used for new branch circuits. However, insurance companies may require remediation or inspection to renew your policy."
+    question: "Do I need a permit for an RV outlet in Plano?",
+    answer: "Yes. Installing a new 30-amp or 50-amp circuit is permitted work. We handle the entire permitting and inspection process with the City of Plano for you."
   },
   {
-    question: "Why is aluminum wiring dangerous?",
-    answer: "Aluminum expands more than copper when heated. This movement loosens connections over time, leading to gaps, arcing, and extreme heat that can melt fixtures or start fires."
+    question: "Can I just adapt my dryer outlet?",
+    answer: "No! Older dryer outlets (3-prong) lack a ground, and newer ones (4-prong) are often far from where you park. Plus, extension cords for 30A+ loads are dangerous long-term."
   },
   {
-    question: "Do I have to rip out all my walls?",
-    answer: "Rarely. Our remediation process fixes the connections at the outlets, switches, and junction boxes. A full rewire is an option but often not necessary for safety."
+    question: "What's the difference between 30 amp and 50 amp?",
+    answer: "30-amp service (120V) is for smaller trailers with one AC. 50-amp service (240V/120V) provides MUCH more power for large motorhomes with two or three AC units."
   },
   {
-    question: "What is COPALUM crimping?",
-    answer: "It's a specialized, high-pressure cold-weld method approved by the CPSC. It permanently bonds copper to aluminum, making the connection as safe as pure copper."
+    question: "How much does installation cost?",
+    answer: "Price depends on the distance from your main breaker panel to the parking spot and the difficulty of trenching. We provide free, firm quotes."
   },
   {
-    question: "Can't I just use regular wire nuts?",
-    answer: "No! Standard wire nuts are unsafe for aluminum-to-copper connections. Even 'purple' nuts can fail. You need specialized AlumiConn lugs or COPALUM crimps."
+    question: "Can you install it on the side of my house?",
+    answer: "Yes, we can mount an RV box on an exterior wall, or install a freestanding pedestal in the yard if you park further away."
   },
   {
-    question: "How much does aluminum remediation cost?",
-    answer: "It costs significantly less than a full home rewire. We provide per-device pricing after a thorough audit of your home's electrical system."
+    question: "Will this charge my lithium batteries?",
+    answer: "Yes. Plugging your RV into a proper 30/50 amp pedestal allows your converter/charger to properly maintain your battery bank, whether lead-acid or lithium."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Aluminum Wiring FAQ – Naperville, IL
+            RV Power FAQ – Plano, TX
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Honest answers about your home's electrical safety.
-            We help Naperville homeowners satisfy insurance requirements and sleep soundly.
+            Answers to common questions about home RV hookups.
+            We help Plano RV owners protect their investment with safe, reliable power.
           </p>
         </div>
 

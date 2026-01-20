@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">NWS</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">PRP</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Naperville Wire Safe
+                  Plano RV Power
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Aluminum Wiring Experts</p>
+                <p className="text-xs text-primary-foreground/60">Home RV Hookups</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Specializing in the safe remediation of aluminum wiring in Naperville's
-              mid-century neighborhoods. Licensed, insured, and dedicated to your safety.
+              Bringing the convenience of the campground to your driveway.
+              Professional 30A & 50A pedestal installations in Plano and Collin County.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Safety Inspections
+                  RV Pedestal Install
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Aluminum Remediation
+                  50 Amp Upgrades
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Panel Upgrades
+                  Outlet Replacement
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Code Compliance
+                  Trenching & Conduit
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Naperville & DuPage County</span>
+                <span>Plano, TX & North Dallas</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:safety@naperville-wire-safe.com" className="hover:text-copper-light transition-colors">
-                  safety@naperville-wire-safe.com
+                <a href="mailto:install@plano-rv-power.com" className="hover:text-copper-light transition-colors">
+                  install@plano-rv-power.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,51 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap gap-x-8 gap-y-2">
             <a
-              href="https://emergencyslableakdetectionnapervill.vercel.app/"
+              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Emergency Slab Leak Detection Naperville
+              Freeze Proof Outdoor Faucet Replacement OH
             </a>
             <a
-              href="https://potfillerfaucetinstallationroundroc.vercel.app/"
+              href="https://wellpumpreplacementoverlandparkks.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Pot Filler Faucet Installation Round Rock
+              Well Pump Replacement Overland Park KS
             </a>
             <a
-              href="https://knobandtubewiringreplacementsavanna.vercel.app/"
+              href="https://greywatersysteminstallationtempe.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Knob and Tube Wiring Replacement Savannah
+              Greywater System Installation Tempe
             </a>
             <a
-              href="https://balconydrainleakdetectionservicesau.vercel.app/"
+              href="https://ceramickilnelectricalhookupashevill.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Balcony Drain Leak Detection Austin
+              Ceramic Kiln Electrical Hookup Asheville
+            </a>
+            <a
+              href="https://aluminumwiringreplacementnapervilleil.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
+            >
+              Aluminum Wiring Replacement Naperville IL
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Naperville Wire Safe. All rights reserved.
+            © {new Date().getFullYear()} Plano RV Power. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">
