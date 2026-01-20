@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Why is my toilet wobbling?",
-    answer: "A wobbly toilet is usually caused by a loose or broken flange, or an uneven subfloor. This instability can quickly compromise the wax ring seal, leading to hidden leaks and water damage."
+    question: "What exactly is trenchless pipe relining?",
+    answer: "Trenchless pipe relining is a method of repairing damaged sewer or drain pipes without digging a trench. We pull an epoxy-saturated sleeve through the existing pipe and cure it in place, creating a new, structural pipe inside the old one."
   },
   {
-    question: "Can I just tighten the bolts to stop a leak?",
-    answer: "Overtightening bolts on a broken flange can actually crack the toilet base or further damage the flange. It's best to have a professional inspect the flange to ensure it's structurally sound before securing the bolts."
+    question: "How long does a relined pipe last?",
+    answer: "Our trenchless pipe linings are engineered for longevity and typically have a life expectancy of 50 years or more. They are resistant to corrosion, root intrusion, and chemical wear."
   },
   {
-    question: "What is a closet flange?",
-    answer: "A closet flange is the pipe fitting that connects your toilet to the drainage system and secures it to the floor. It's the foundation of your toilet's stability and seal."
+    question: "Will the new liner reduce the capacity of my pipe?",
+    answer: "While the liner slightly reduces the diameter of the pipe, its smooth, seamless surface actually improves flow capacity by reducing friction and eliminating joints where debris typically catches."
   },
   {
-    question: "How do I know if my flange is broken?",
-    answer: "Common signs include a wobbly toilet, water seeping from the base, a persistent sewage smell, or floorboards that feel soft or bouncy around the toilet area."
+    question: "Can any pipe be relined?",
+    answer: "Most types of pipes including PVC, cast iron, clay, and concrete can be relined. However, if the pipe has completely collapsed or is severely misaligned, traditional replacement might be necessary."
   },
   {
-    question: "Do you repair cast iron flanges?",
-    answer: "Yes! We specialize in repairing all types of flanges, including old cast iron, PVC, and brass. We use modern repair kits that often eliminate the need for expensive pipe replacement."
+    question: "Is trenchless repair more expensive than traditional digging?",
+    answer: "While the technology itself can be more expensive, the total cost is often lower because it eliminates the need for expensive landscape restoration, driveway repairs, and interior floor replacement."
   },
   {
-    question: "How long does a flange repair take?",
-    answer: "Most toilet flange repairs can be completed in 1.5 to 3 hours, depending on the condition of the subfloor and the type of repair required."
+    question: "How long does the process take?",
+    answer: "Most residential trenchless relining projects in Huntsville can be completed in a single day, often within 4 to 8 hours, minimizing the time your water service is offline."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Toilet & Flange Repair FAQ – Tallahassee, FL
+            Trenchless Pipe Repair FAQ – Huntsville, AL
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Get expert answers to common questions about wobbly toilets, broken flanges, and bathroom leak prevention in Florida's Capital City.
+            Get expert answers to common questions about no-dig sewer repair, CIPP lining, and modern plumbing technology in the Rocket City.
           </p>
         </div>
 

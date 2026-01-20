@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">TF</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">HR</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Tallahassee Toilet Fix
+                  Huntsville No-Dig Pipe Repair
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Flange & Leak Specialists</p>
+                <p className="text-xs text-primary-foreground/60">Sewer & Pipe Relining Specialists</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Tallahassee's leading experts in toilet repair and subfloor stabilization.
-              Providing permanent flange solutions for Florida homeowners.
+              Huntsville's leading experts in trenchless sewer repair and
+              CIPP pipe relining. Restoring infrastructure without the dig.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Flange Replacement
+                  Pipe Relining
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Wax Ring Fix
+                  Hydro Jetting
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Base Stabilization
+                  Video Inspections
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Subfloor Repair
+                  Sewer Cleaning
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Serving Tallahassee & Leon County</span>
+                <span>Serving Huntsville & Madison County</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:info@tallahassee-toilet-fix.com" className="hover:text-copper-light transition-colors">
-                  info@tallahassee-toilet-fix.com
+                <a href="mailto:info@huntsville-trenchless-repair.com" className="hover:text-copper-light transition-colors">
+                  info@huntsville-trenchless-repair.com
                 </a>
               </li>
             </ul>
@@ -127,7 +127,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Tallahassee Toilet Fix. All rights reserved.
+            © {new Date().getFullYear()} Huntsville No-Dig Pipe Repair. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

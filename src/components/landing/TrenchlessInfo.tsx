@@ -1,47 +1,47 @@
-import { Wrench, Layers, Droplets, Shield, CheckCircle2, Ruler } from "lucide-react";
+import { Zap, Construction, Workflow, Shield, CheckCircle2, Ruler } from "lucide-react";
 
 const infoData = [
   {
-    icon: Wrench,
-    title: "Broken Flange Fix",
-    description: "Whether it's cracked PVC or rusted cast iron, we use heavy-duty repair rings to restore the connection without always needing to cut into the main pipe.",
+    icon: Zap,
+    title: "Epoxy Lining Tech",
+    description: "We use high-grade epoxy resins that saturate a felt liner, which is then cured inside your pipe to create a smooth, durable, and jointless new sewer line.",
   },
   {
-    icon: Layers,
-    title: "Height Adjustment",
-    description: "If you've recently added new tile, your flange might be too low. We install precision spacers to ensure a perfect seal with your new floor height.",
+    icon: Construction,
+    title: "Zero Landscape Damage",
+    description: "Our process requires only small access points, meaning your expensive landscaping, paved driveways, and mature trees remain completely undisturbed.",
   },
   {
-    icon: Droplets,
-    title: "Seal Replacement",
-    description: "Standard wax rings often fail over time. We use reinforced, non-leak rubber seals that maintain their integrity even if the toilet slightly shifts.",
+    icon: Workflow,
+    title: "Structural Restoration",
+    description: "Trenchless relining isn't just a patch; it's a structural repair that reinforces the host pipe and can even bridge small gaps and cracks effortlessly.",
   },
 ];
 
 const benefitsData = [
-  "Prevents hidden leaks that rot subfloors",
-  "Eliminates embarrassing sewage odors",
-  "Secures wobbly toilets to prevent flange stress",
-  "Protects your bathroom ceiling from water damage",
-  "Stainless steel components prevent future rust",
-  "Professional leveling for maximum user comfort",
+  "Virtually eliminates future root intrusions",
+  "Smoother interior increases flow capacity",
+  "Prevents soil erosion around leaking pipes",
+  "Significant cost savings over full excavation",
+  "Eco-friendly materials and low-impact process",
+  "Certified technicians with decades of experience",
 ];
 
-const ToiletFlangeInfo = () => {
+const TrenchlessInfo = () => {
   return (
-    <section id="toilet-info" className="py-24 bg-gradient-hero">
+    <section id="trenchless-info" className="py-24 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-            Bathroom Protection
+            Advanced Infrastructure
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-            Why Tallahassee Homeowners Choose Our Flange Repairs
+            Why Huntsville Relies on Our Trenchless Technology
           </h2>
           <p className="text-primary-foreground/80 text-lg">
-            A small leak under your toilet can go unnoticed for months, causing
-            thousands in structural damage. We specialize in proactive repairs
-            that secure your fixture and protect your home's foundation.
+            Traditional sewer replacement is a thing of the past. Our trenchless
+            solutions provide a smarter, faster, and more economical way to
+            restore your underground pipes without digging up your life.
           </p>
         </div>
 
@@ -71,24 +71,23 @@ const ToiletFlangeInfo = () => {
             <div className="flex items-center gap-3 mb-6">
               <Ruler className="w-8 h-8 text-copper" />
               <h3 className="text-2xl font-heading font-bold text-foreground">
-                Precision Floor Integration
+                The CIPP Relining Process
               </h3>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Our Tallahassee plumbing experts don't just 'bolt it down'. We analyze
-              the relationship between your toilet, the flange, and the floor level.
-              We ensure your flange is set at the ideal height for a permanent,
-              air-tight seal.
+              Our Huntsville experts utilize Cured-In-Place Pipe (CIPP) technology.
+              We insert an epoxy-saturated tube into the damaged pipe, inflate it
+              to match the pipe's diameter, and cure it until it's hard as stone.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Serving all of Tallahassee, from Killearn to Southwood and Midtown,
-              we bring expert-level craftsmanship to every bathroom repair.
+              Serving the entire Huntsville metro area, from Madison and Harvest
+              to Owens Cross Roads, we bring world-class no-dig technology to your doorstep.
             </p>
           </div>
 
           <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
             <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-              The Repair Advantage
+              Trenchless Advantages
             </h3>
             <ul className="space-y-4">
               {benefitsData.map((benefit, index) => (
@@ -108,7 +107,7 @@ const ToiletFlangeInfo = () => {
           <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
             <Shield className="w-6 h-6 text-copper" />
             <span className="text-primary-foreground font-medium text-lg">
-              Stop the wobble before it becomes a flood. Call (877) 792-1410 for a professional inspection.
+              Save your yard and your sanity. Call (877) 792-1410 for a free trenchless pipe estimate.
             </span>
           </div>
         </div>
@@ -117,4 +116,4 @@ const ToiletFlangeInfo = () => {
   );
 };
 
-export default ToiletFlangeInfo;
+export default TrenchlessInfo;

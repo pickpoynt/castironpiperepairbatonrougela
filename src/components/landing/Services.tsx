@@ -1,24 +1,24 @@
-import { Wrench, Droplets, ShieldAlert, CheckCircle, ArrowRight } from "lucide-react";
+import { Wrench, Zap, Workflow, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
+    icon: Workflow,
+    title: "Sewer Pipe Relining",
+    description: "Our CIPP (Cured-In-Place Pipe) lining creates a brand new, seamless pipe inside your old one, sealing cracks and preventing root intrusion.",
+    features: ["50-year life span", "Zero excavation", "Seamless finish"],
+  },
+  {
+    icon: Zap,
+    title: "Hydro Jetting Service",
+    description: "High-pressure water cleaning to clear out years of scale, debris, and roots, preparing your pipes for a perfect relining bond.",
+    features: ["Total line clearing", "Industrial pressure", "Eco-friendly"],
+  },
+  {
     icon: Wrench,
-    title: "Toilet Flange Replacement",
-    description: "Removal of broken, rusted, or improperly installed flanges and replacement with durable, modern stainless steel or PVC units.",
-    features: ["Subfloor inspection", "Level alignment", "Rust-proof materials"],
-  },
-  {
-    icon: Droplets,
-    title: "Leak & Wax Ring Rescue",
-    description: "Expert detection of hidden base leaks and installation of high-quality wax-free seals that prevent water damage and odors.",
-    features: ["Odor elimination", "Pressure testing", "Permanent seals"],
-  },
-  {
-    icon: ShieldAlert,
-    title: "Subfloor Stabilization",
-    description: "Strategic reinforcement for toilets sitting on soft or rotting wood, ensuring a solid, unmoving foundation for your fixture.",
-    features: ["Structural repair", "Plywood reinforcement", "Waterproofing"],
+    title: "Video Pipe Inspection",
+    description: "HD camera diagnostics to pinpoint the exact location and nature of your pipe issues before we begin the precision relining process.",
+    features: ["Real-time footage", "Precise locating", "Before & after proof"],
   },
 ];
 
@@ -28,14 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Reliable Repairs
+            Modern Solutions
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Tallahassee's Toilet & Flange Specialists
+            Huntsville's Trenchless Repair Specialists
           </h2>
           <p className="text-muted-foreground text-lg">
-            Stop the wobble and prevent structural damage. Our licensed plumbers provide
-            precision flange repairs that stand the test of time in Tallahassee homes.
+            Say goodbye to trenches and hello to the future of plumbing. We provide
+            non-invasive pipe restoration for residential and commercial Huntsville properties.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const Services = () => {
               </div>
 
               <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                {service.title} in Tallahassee
+                {service.title} in Huntsville
               </h3>
 
               <p className="text-muted-foreground mb-6">
