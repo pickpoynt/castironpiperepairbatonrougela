@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Do baseboard heaters use a lot of electricity?",
-    answer: "Resistance heat is 100% efficient, but electricity costs more than gas. However, zonal heating (only heating occupied rooms) often results in lower overall bills than heating a whole house with a central furnace."
+    question: "How do I know if my ejector pump is failing?",
+    answer: "Warning signs include sewage odors, gurgling sounds from basement drains, slow drainage, visible sewage in the basin, or the pump running constantly without shutting off."
   },
   {
-    question: "My heater smells like burning. Is that normal?",
-    answer: "If you haven't used it all summer, yes. It's usually just dust burning off the element. The smell should dissipate in 20-30 minutes. If it persists, turn it off and call us."
+    question: "Can I use my basement bathroom while the pump is broken?",
+    answer: "No! Using basement fixtures with a failed ejector pump will cause sewage to overflow the basin and flood your basement. Call us immediately for emergency service."
   },
   {
-    question: "Can I put furniture in front of the heater?",
-    answer: "No! You need to keep at least 12 inches of clearance in front of baseboard heaters to prevent fire hazards and allow proper airflow."
+    question: "How long does an ejector pump last?",
+    answer: "Quality pumps like Zoeller and Liberty typically last 7-10 years with proper maintenance. Cheaper pumps may fail in 3-5 years."
   },
   {
-    question: "How long do these heaters last?",
-    answer: "Electric baseboard heaters are very simple and durable, often lasting 20+ years. The thermostats usually fail before the heaters do."
+    question: "Do you offer emergency service?",
+    answer: "Yes, we provide 24/7 emergency ejector pump repair in Schaumburg and surrounding areas. Sewage backups can't wait until Monday morning."
   },
   {
-    question: "Can you upgrade me to a smart thermostat?",
-    answer: "Yes! High-voltage smart thermostats like Mysa are designed specifically for baseboard heaters. We can retrofit them to give you app control and scheduling."
+    question: "How much does ejector pump replacement cost?",
+    answer: "Costs vary based on pump size, basin condition, and piping needs. We provide upfront estimates. Most replacements range from $800-$2,500 installed."
   },
   {
-    question: "Do I need a dedicated circuit?",
-    answer: "Yes, electric heaters draw significant power (amperage). They generally require dedicated 240V circuits to operate safely and meet code."
+    question: "Is this covered by homeowners insurance?",
+    answer: "Sudden failures may be covered, but gradual wear and lack of maintenance typically aren't. Check your policy and call us for documentation if needed."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Heating FAQ – Seattle, WA
+            Ejector Pump FAQ – Schaumburg, IL
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Common questions about electric zonal heating.
-            We help Seattle homeowners stay warm and safe.
+            Common questions about basement sewage pump repair and replacement.
+            We help Schaumburg homeowners protect their basements from flooding.
           </p>
         </div>
 

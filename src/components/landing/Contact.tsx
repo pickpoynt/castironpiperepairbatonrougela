@@ -11,30 +11,30 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Get Your Heating Quote
-              <span className="text-gradient-copper block">Stay Warm This Winter</span>
+              Get Emergency Service
+              <span className="text-gradient-copper block">We're Here 24/7</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Cold bedroom? Outdated thermostats? Contact Seattle&apos;s electric heating
-              specialists today to schedule your consultation.
+              Sewage backup emergency? Contact Schaumburg&apos;s ejector pump specialists
+              now for immediate assistance. We respond fast to prevent basement flooding.
             </p>
 
             <div className="space-y-6">
               <a
-                href="tel:+18449012684"
+                href="tel:+18777921410"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call Us Now</span>
-                  <span className="font-heading font-bold text-xl text-foreground">(844) 901-2684</span>
+                  <span className="text-sm text-muted-foreground block">Emergency Line</span>
+                  <span className="font-heading font-bold text-xl text-foreground">(877) 792-1410</span>
                 </div>
               </a>
 
               <a
-                href="mailto:install@seattle-heater-pros.com"
+                href="mailto:service@schaumburg-pump-pros.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">install@seattle-heater-pros.com</span>
+                  <span className="font-heading font-bold text-foreground">service@schaumburg-pump-pros.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Seattle, Bellevue, Tacoma & King County</span>
+                  <span className="font-heading font-semibold text-foreground">Schaumburg, Hoffman Estates, Palatine & Cook County</span>
                 </div>
               </div>
 
@@ -61,8 +61,8 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-copper" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 8:00 AM - 5:00 PM | Sat Appts</span>
+                  <span className="text-sm text-muted-foreground block">Availability</span>
+                  <span className="font-heading font-semibold text-foreground">24/7 Emergency Service | Same-Day Available</span>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Contact = () => {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="(844) 901-2684"
+                  placeholder="(877) 792-1410"
                 />
               </div>
 
@@ -125,13 +125,13 @@ const Contact = () => {
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  How can we help?
+                  Describe the problem
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I have a flickering heater in my living room..."
+                  placeholder="My basement bathroom is backing up and there's a sewage smell..."
                 />
               </div>
 

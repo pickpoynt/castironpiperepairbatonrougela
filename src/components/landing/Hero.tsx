@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Clock, Award } from "lucide-react";
-import heroImage from "@/assets/hero-wiring.png";
+import heroImage from "@/assets/hero-tankless.png";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Technician installing electric baseboard heater in Seattle home"
+          alt="Plumber repairing ejector pump in Schaumburg basement"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,26 +20,26 @@ const Hero = () => {
         <div className="max-w-3xl">
           <div className="animate-fade-in">
             <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-medium mb-6">
-              Warmth Where You Need It
+              24/7 Emergency Service
             </span>
           </div>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
-            Baseboard Heater Installation in Seattle, WA
-            <span className="block text-gradient-copper mt-2">Efficient. Quiet. Reliable.</span>
+            Ejector Pump Repair in Schaumburg, IL
+            <span className="block text-gradient-copper mt-2">Fast. Reliable. Expert.</span>
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in-delay-1">
-            Upgrade your home's comfort with modern electric baseboard heaters. We provide
-            expert installation and smart thermostat integration for perfect room-by-room
-            temperature control, keeping Seattle's chill at bay.
+            Don't let a failed sewage ejector pump flood your basement. Our licensed plumbers
+            provide fast diagnosis, repair, and replacement for all basement pump systems.
+            Same-day service available in Schaumburg and surrounding areas.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-delay-2">
             <Button size="lg" className="bg-copper hover:bg-copper-light text-white border-none h-14 px-8 text-lg" asChild>
-              <a href="tel:+18449012684" className="flex items-center gap-2">
+              <a href="tel:+18777921410" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call (844) 901-2684
+                Call (877) 792-1410
               </a>
             </Button>
           </div>

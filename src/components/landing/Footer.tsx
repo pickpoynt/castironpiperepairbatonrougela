@@ -9,26 +9,26 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">SHP</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">SBP</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Seattle Heater Pros
+                  Schaumburg Basement Pump Pros
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Cozy Zonal Heating</p>
+                <p className="text-xs text-primary-foreground/60">Ejector Pump Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Keeping Pacific Northwest homes warm and energy-efficient with top-tier
-              electric baseboard heater installation and repair.
+              24/7 emergency ejector pump repair and replacement serving Schaumburg and
+              surrounding Cook County communities. Licensed, insured, and ready to help.
             </p>
             <div className="flex gap-4">
               <a
-                href="tel:+18449012684"
+                href="tel:+18777921410"
                 className="flex items-center gap-2 text-copper-light hover:text-copper transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                (844) 901-2684
+                (877) 792-1410
               </a>
             </div>
           </div>
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Heater Installation
+                  Pump Repair
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Smart Thermostats
+                  Pump Replacement
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Heater Replacement
+                  Emergency Service
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Wiring & Circuits
+                  Basin Upgrades
                 </a>
               </li>
             </ul>
@@ -66,18 +66,18 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Seattle, WA & King County</span>
+                <span>Schaumburg, IL & Cook County</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
-                <a href="tel:+18449012684" className="hover:text-copper-light transition-colors">
-                  (844) 901-2684
+                <a href="tel:+18777921410" className="hover:text-copper-light transition-colors">
+                  (877) 792-1410
                 </a>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:install@seattle-heater-pros.com" className="hover:text-copper-light transition-colors">
-                  install@seattle-heater-pros.com
+                <a href="mailto:service@schaumburg-pump-pros.com" className="hover:text-copper-light transition-colors">
+                  service@schaumburg-pump-pros.com
                 </a>
               </li>
             </ul>
@@ -91,51 +91,51 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap gap-x-8 gap-y-2">
             <a
-              href="https://galvanized-pipe-replacement-akron.lovable.app/"
+              href="https://emergencyslableakdetectionnapervill.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Galvanized Pipe Replacement Akron
+              Emergency Slab Leak Detection Naperville
             </a>
             <a
-              href="https://tanklesswaterheaterdescalingbellevu.vercel.app/"
+              href="https://balconydrainleakdetectionservicesau.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Tankless Water Heater Descaling Bellevue
+              Balcony Drain Leak Detection Austin
             </a>
             <a
-              href="https://sumppumpbatterybackupinstallationma.vercel.app/"
+              href="https://potfillerfaucetinstallationroundroc.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Sump Pump Battery Backup Installation MA
+              Pot Filler Faucet Installation Round Rock
             </a>
             <a
-              href="https://toiletflangerepairtallahassee.netlify.app/"
+              href="https://knobandtubewiringreplacementsavanna.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Toilet Flange Repair Tallahassee
+              Knob and Tube Wiring Replacement Savannah
             </a>
             <a
-              href="https://trenchlesspiperelininghuntsville.netlify.app/"
+              href="https://generatorinterlockkitinstallationma.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Trenchless Pipe Relining Huntsville
+              Generator Interlock Kit Installation MA
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Seattle Heater Pros. All rights reserved.
+            © {new Date().getFullYear()} Schaumburg Basement Pump Pros. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">
