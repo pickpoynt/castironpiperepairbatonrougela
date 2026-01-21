@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">PDA</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">LSL</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Plano Drain Access Pros
+                  Lubbock Shower Leak Pros
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Cleanout Specialists</p>
+                <p className="text-xs text-primary-foreground/60">Shower Pan Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Professional sewer cleanout installation and replacement serving Plano and
-              Collin County. Save thousands on future repairs with smart drain access.
+              Professional shower pan leak repair and replacement serving Lubbock and
+              surrounding areas. Stop water damage before it destroys your home.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Exterior Cleanouts
+                  Leak Detection
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Camera Access Points
+                  Pan Replacement
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Cleanout Replacement
+                  Waterproofing
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Code Upgrades
+                  Subfloor Repair
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Plano, TX & Collin County</span>
+                <span>Lubbock, TX & Lubbock County</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,66 +76,58 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:service@plano-drain-access.com" className="hover:text-copper-light transition-colors">
-                  service@plano-drain-access.com
+                <a href="mailto:service@lubbock-shower-leak-pros.com" className="hover:text-copper-light transition-colors">
+                  service@lubbock-shower-leak-pros.com
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Partners / Backlinks */}
+        {/* Partners / Backlinks - Centered */}
         <div className="border-t border-primary-foreground/10 pt-8 mb-8">
-          <h4 className="font-heading font-semibold text-primary-foreground/80 mb-4 text-sm uppercase tracking-wider">
+          <h4 className="font-heading font-semibold text-primary-foreground/80 mb-4 text-sm uppercase tracking-wider text-center">
             Our Home Improvement Service Network
           </h4>
-          <div className="flex flex-wrap gap-x-8 gap-y-2">
+          <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             <a
-              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
+              href="https://tanklesswaterheaterdescalingbellevu.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Freeze Proof Outdoor Faucet Replacement OH
+              Tankless Water Heater Descaling Bellevue
             </a>
             <a
-              href="https://wellpumpreplacementoverlandparkks.netlify.app/"
+              href="https://sumppumpbatterybackupinstallationma.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Well Pump Replacement Overland Park KS
+              Sump Pump Battery Backup Installation MA
             </a>
             <a
-              href="https://greywatersysteminstallationtempe.vercel.app/"
+              href="https://toiletflangerepairtallahassee.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Greywater System Installation Tempe
+              Toilet Flange Repair Tallahassee
             </a>
             <a
-              href="https://ceramickilnelectricalhookupashevill.vercel.app/"
+              href="https://rvpedestalinstallationplanotx.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Ceramic Kiln Electrical Hookup Asheville
-            </a>
-            <a
-              href="https://aluminumwiringreplacementnapervilleil.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
-            >
-              Aluminum Wiring Replacement Naperville IL
+              RV Pedestal Installation Plano TX
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Plano Drain Access Pros. All rights reserved.
+            © {new Date().getFullYear()} Lubbock Shower Leak Pros. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

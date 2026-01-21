@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Do I need a permit to install a sewer cleanout in Plano?",
-    answer: "Yes, most cleanout installations require a plumbing permit. We handle all permitting and inspections for you as part of our service."
+    question: "How do I know if my shower pan is leaking?",
+    answer: "Signs include water stains on the ceiling below the shower, soft or spongy shower floor, musty odors, visible mold around the base, or water pooling outside the shower after use."
   },
   {
-    question: "Where should a cleanout be located?",
-    answer: "Ideally near your property line for easy access, at direction changes in the sewer line, and before the connection to the city main. We'll assess your property and recommend the best location."
+    question: "Can a shower pan leak be repaired without replacement?",
+    answer: "Small cracks can sometimes be patched with epoxy or sealant, but most leaks require full pan replacement to ensure proper waterproofing and prevent future damage."
   },
   {
-    question: "Can you install a cleanout if my sewer line is under my driveway?",
-    answer: "Yes! We can bore under driveways or install the cleanout on either side. We minimize disruption to hardscaping and restore everything when done."
+    question: "How long does shower pan replacement take?",
+    answer: "Most replacements take 2-3 days, including removal of old materials, subfloor repair if needed, new pan installation, waterproofing, and tile work."
   },
   {
-    question: "How much does sewer cleanout installation cost?",
-    answer: "Costs vary based on depth, location, and soil conditions. Most installations range from $400-$1,200. We provide free estimates with no obligation."
+    question: "Will you repair water damage to my subfloor?",
+    answer: "Yes! We assess subfloor damage and make necessary repairs before installing the new shower pan. This ensures a solid, level foundation."
   },
   {
-    question: "Will you restore my landscaping after installation?",
-    answer: "Absolutely. We backfill properly, compact the soil, and restore grass or landscaping. The cleanout cap sits flush with grade for easy mowing."
+    question: "What type of shower pan is best?",
+    answer: "It depends on your shower design. We recommend Schluter-Kerdi systems for tile showers, or quality acrylic/fiberglass pans for prefab units. We'll help you choose."
   },
   {
-    question: "How long does installation take?",
-    answer: "Most cleanout installations are completed in 3-6 hours, including excavation, installation, inspection, and restoration. Same-day service available."
+    question: "Do you offer a warranty on shower pan installation?",
+    answer: "Yes, we provide a workmanship warranty on all installations. Manufacturer warranties on materials vary by product but typically range from 5-10 years."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Cleanout FAQ – Plano, TX
+            Shower Pan FAQ – Lubbock, TX
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Common questions about sewer cleanout installation and replacement.
-            We help Plano homeowners protect their investment and save on future repairs.
+            Common questions about shower pan leak repair and replacement.
+            We help Lubbock homeowners stop water damage before it gets worse.
           </p>
         </div>
 

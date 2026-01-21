@@ -1,24 +1,24 @@
-import { MapPin, Camera, Wrench, CheckCircle, ArrowRight } from "lucide-react";
+import { Droplets, Wrench, Shield, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: MapPin,
-    title: "Exterior Cleanouts",
-    description: "Install accessible cleanout points in your yard near the property line, making future drain service easy without entering your home.",
-    features: ["Grade-level access", "Weatherproof caps", "Landscaping restoration"],
-  },
-  {
-    icon: Camera,
-    title: "Camera-Ready Access",
-    description: "Cleanouts allow plumbers to run sewer cameras to diagnose clogs, root intrusion, and pipe damage without invasive digging.",
-    features: ["Inspection port", "4-inch openings", "Two-way cleanout"],
+    icon: Droplets,
+    title: "Leak Detection",
+    description: "We use moisture meters and visual inspection to pinpoint shower pan leaks, including cracks, failed waterproofing, and drain assembly failures.",
+    features: ["Moisture testing", "Drain inspection", "Subfloor assessment"],
   },
   {
     icon: Wrench,
-    title: "Cleanout Replacement",
-    description: "Replace broken, corroded, or buried cleanout caps and risers. We upgrade old terra cotta cleanouts to modern PVC or ABS.",
-    features: ["Cap replacement", "Riser extension", "Code upgrades"],
+    title: "Pan Replacement",
+    description: "Complete shower pan replacement with modern PVC or tile-ready pans. We remove old pans, repair subfloor damage, and install proper waterproofing.",
+    features: ["Subfloor repair", "New liner install", "Drain upgrade"],
+  },
+  {
+    icon: Shield,
+    title: "Waterproofing",
+    description: "Professional waterproofing membrane installation using RedGard or Schluter systems to prevent future leaks and protect your investment.",
+    features: ["Membrane application", "Corner sealing", "Lifetime warranty"],
   },
 ];
 
@@ -31,11 +31,11 @@ const Services = () => {
             Licensed Plumbing Experts
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Plano's Cleanout Specialists
+            Lubbock's Shower Leak Specialists
           </h2>
           <p className="text-muted-foreground text-lg">
-            A properly installed sewer cleanout is your best defense against expensive
-            drain emergencies. We install code-compliant access points that save you money.
+            Shower pan leaks don't fix themselves—they get worse. We provide complete
+            leak repair solutions to stop water damage and protect your home's structure.
           </p>
         </div>
 

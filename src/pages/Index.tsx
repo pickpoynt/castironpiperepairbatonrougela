@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import CleanoutInfo from "@/components/landing/CleanoutInfo";
+import ShowerPanInfo from "@/components/landing/ShowerPanInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -14,7 +14,7 @@ const Index = () => {
       <Hero />
       <Services />
       <WhyUs />
-      <CleanoutInfo />
+      <ShowerPanInfo />
       <FAQ />
       <Contact />
       <Footer />

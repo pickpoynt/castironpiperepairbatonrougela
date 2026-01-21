@@ -1,35 +1,35 @@
-import { DollarSign, Shield, Home, Ruler, BadgeCheck, Wrench } from "lucide-react";
+import { AlertTriangle, Shield, Home, Clock, BadgeCheck, Wrench } from "lucide-react";
 
 const reasons = [
   {
-    icon: DollarSign,
-    title: "Prevent Costly Repairs",
-    description: "Without a cleanout, clearing clogs requires cutting into walls or floors. A $500 cleanout saves you $3,000+ in future emergency repairs.",
+    icon: AlertTriangle,
+    title: "Prevent Major Damage",
+    description: "Shower pan leaks rot subfloors, damage joists, and cause mold. Early repair saves you from $10,000+ structural repairs.",
   },
   {
     icon: Shield,
-    title: "Code Compliant",
-    description: "We install cleanouts that meet current Plano plumbing codes, including proper depth, location, and cap specifications.",
+    title: "Proper Waterproofing",
+    description: "We don't just patch—we install professional waterproofing membranes that meet building codes and prevent future leaks.",
   },
   {
     icon: Home,
-    title: "Preserve Your Home",
-    description: "Exterior cleanouts mean plumbers never need to enter your house to clear main line clogs. Protect your floors and landscaping.",
+    title: "Subfloor Expertise",
+    description: "We assess and repair water-damaged subfloors before installing new pans, ensuring a solid, level foundation for your shower.",
   },
   {
-    icon: Ruler,
-    title: "Strategic Placement",
-    description: "We locate cleanouts at optimal access points—near property lines, at direction changes, and before the city connection.",
+    icon: Clock,
+    title: "Fast Turnaround",
+    description: "Most shower pan replacements are completed in 2-3 days, minimizing disruption to your daily routine.",
   },
   {
     icon: BadgeCheck,
     title: "Licensed & Insured",
-    description: "All work performed by Texas-licensed master plumbers. We pull permits and schedule inspections when required.",
+    description: "All work performed by Texas-licensed plumbers. We pull permits and schedule inspections when required.",
   },
   {
     icon: Wrench,
     title: "Quality Materials",
-    description: "We use schedule 40 PVC or ABS with commercial-grade caps that won't crack, corrode, or leak over time.",
+    description: "We use commercial-grade shower pans from Schluter, Wedi, and other trusted manufacturers with long-term warranties.",
   },
 ];
 
@@ -40,27 +40,27 @@ const WhyUs = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-              Why Install a Cleanout?
+              Why Act Fast?
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Plano's Choice for
-              <span className="text-gradient-copper block">Sewer Access Solutions</span>
+              Lubbock's Trusted
+              <span className="text-gradient-copper block">Shower Leak Experts</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Many older Plano homes don't have exterior cleanouts. When main line clogs happen,
-              plumbers have to access your sewer through toilets or cut into your foundation. Installing
-              a cleanout now is a smart investment.
+              Shower pan leaks are one of the most damaging plumbing issues. Water seeps through
+              the floor, rotting wood and creating mold. The longer you wait, the more expensive
+              the repair becomes.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">300+</span>
-                <span className="text-sm text-muted-foreground">Cleanouts Installed</span>
+                <span className="text-4xl font-heading font-bold text-copper block">200+</span>
+                <span className="text-sm text-muted-foreground">Pans Replaced</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">100%</span>
-                <span className="text-sm text-muted-foreground">Code Pass Rate</span>
+                <span className="text-4xl font-heading font-bold text-copper block">15+</span>
+                <span className="text-sm text-muted-foreground">Years Exp</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
