@@ -11,12 +11,12 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Get Your Free Repipe Quote
-              <span className="text-gradient-copper block">Protect Your Home</span>
+              Get Your System Quote
+              <span className="text-gradient-copper block">Secure Your Basement</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Worried about your pipes? Contact Chesapeake's Poly-B replacement specialists
-              today for a free inspection and comprehensive repiping estimate.
+              Ready to protect your home from the next storm? Contact Fort Wayne's sump pump experts
+              today for a free consultation on battery backup systems.
             </p>
 
             <div className="space-y-6">
@@ -28,13 +28,13 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Call Us Now</span>
+                  <span className="text-sm text-muted-foreground block">Call For Service</span>
                   <span className="font-heading font-bold text-xl text-foreground">(877) 792-1410</span>
                 </div>
               </a>
 
               <a
-                href="mailto:service@chesapeake-repiping-pros.com"
+                href="mailto:service@fort-wayne-sump-solutions.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">service@chesapeake-repiping-pros.com</span>
+                  <span className="font-heading font-bold text-foreground">service@fort-wayne-sump-solutions.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Chesapeake: Greenbrier, Great Bridge, Deep Creek</span>
+                  <span className="font-heading font-semibold text-foreground">Fort Wayne, New Haven, Auburn & Allen County</span>
                 </div>
               </div>
 
@@ -61,8 +61,8 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-copper" />
                 </div>
                 <div>
-                  <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 8:00 AM - 5:00 PM | Sat: By Appt</span>
+                  <span className="text-sm text-muted-foreground block">Available Hours</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 8:00 AM - 6:00 PM | 24/7 Emergency</span>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request Inspection
+              Schedule Consultation
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -83,7 +83,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Michael"
+                    placeholder="David"
                   />
                 </div>
                 <div>
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Jordan"
+                    placeholder="Miller"
                   />
                 </div>
               </div>
@@ -119,19 +119,19 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="michael@example.com"
+                  placeholder="david@example.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell us about your home
+                  How can we help?
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="My home was built in 1989 and I think I have grey plastic pipes..."
+                  placeholder="I have a finished basement and want to install a backup pump..."
                 />
               </div>
 

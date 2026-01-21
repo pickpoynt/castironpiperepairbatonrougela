@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How do I know if I have polybutylene pipes?",
-    answer: "Look for grey pipes under your sinks or near your water heater. They are often stamped with codes like 'PB2110'. If you're unsure, we offer free visual inspections."
+    question: "How long will the battery last during a power outage?",
+    answer: "It depends on how often the pump cycles. Our high-capacity AGM batteries typically provide 2-3 days of protection during moderate to heavy usage."
   },
   {
-    question: "Do I really need to replace my pipes if they aren't leaking?",
-    answer: "Yes. Poly-B pipes deteriorate from the inside out. They can look fine on the outside right up until they burst. Replacing them is a preventative measure."
+    question: "Does the backup system replace my existing pump?",
+    answer: "No, it works alongside it. The backup sits slightly higher in the pit and only activates if the primary pump fails or the power goes out. It's a redundant safety net."
   },
   {
-    question: "How long does a whole house repipe take?",
-    answer: "Most Chesapeake homes can be repiped in 3-5 days. We work in zones so you are rarely without water for more than a few hours during the day."
+    question: "Do I need a new sump pit?",
+    answer: "Usually, no. Most standard sump pits have enough room for both a primary and a backup pump. If not, we can make adjustments to fit the system."
   },
   {
-    question: "What happens to my walls and ceilings?",
-    answer: "We have to open small sections of drywall to access pipes. However, our quote includes professional drywall patching and texture matching, so your home looks perfect when we leave."
+    question: "How do I know if the backup is working?",
+    answer: "Our systems run weekly self-tests and will alert you via an alarm or phone notification if any issue is detected, such as a low battery or blocked discharge."
   },
   {
-    question: "Will replacing my pipes lower my insurance premiums?",
-    answer: "Often, yes. Many insurers offer discounts for upgrading to modern plumbing systems, and it may be required to maintain coverage in some areas."
+    question: "What maintenance does the system require?",
+    answer: "Very little. We use maintenance-free batteries that don't need water. We recommend a professional inspection once a year to ensure peak performance."
   },
   {
-    question: "What pipe material do you use for replacement?",
-    answer: "We recommend Uponor PEX-A for its flexibility, durability, and leak-resistant expansion fittings. We can also install copper if you prefer."
+    question: "Is it worth the investment?",
+    answer: "Compared to the $20,000+ cost of repairing a finished basement after a flood, a backup system is a small price to pay for guaranteed peace of mind."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Repiping FAQ – Chesapeake, VA
+            Backup System FAQ
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Answers to common questions about replacing polybutylene plumbing.
-            We help Chesapeake homeowners protect their biggest investment.
+            Answers to common questions about keeping your Fort Wayne basement dry.
+            We make flood protection simple and reliable.
           </p>
         </div>
 

@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">CRP</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">FWS</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Chesapeake Repiping Pros
+                  Fort Wayne Sump Solutions
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Poly-B Replacement Experts</p>
+                <p className="text-xs text-primary-foreground/60">Basement Protection Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Specializing in the removal and replacement of defective polybutylene piping
-              in Chesapeake, VA. We restore safety and value to your home.
+              Specializing in high-capacity battery backup systems for sump pumps.
+              Serving Fort Wayne, IN and surrounding communities with 24/7 service.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Whole House Repipe
+                  Battery Installation
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Poly-B Inspection
+                  System Stress Tests
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Drywall & Paint
+                  Pump Replacement
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Permit Handling
+                  Water Monitoring
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Chesapeake, VA</span>
+                <span>Fort Wayne, IN</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:service@chesapeake-repiping-pros.com" className="hover:text-copper-light transition-colors">
-                  service@chesapeake-repiping-pros.com
+                <a href="mailto:service@fort-wayne-sump-solutions.com" className="hover:text-copper-light transition-colors">
+                  service@fort-wayne-sump-solutions.com
                 </a>
               </li>
             </ul>
@@ -91,43 +91,43 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
             <a
-              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
+              href="https://galvanized-pipe-replacement-akron.lovable.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Freeze Proof Outdoor Faucet Replacement OH
+              Galvanized Pipe Replacement Akron
             </a>
             <a
-              href="https://greywatersysteminstallationtempe.vercel.app/"
+              href="https://balconydrainleakdetectionservicesau.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Greywater System Installation Tempe
+              Balcony Drain Leak Detection Services Austin
             </a>
             <a
-              href="https://generatorinterlockkitinstallationma.vercel.app/"
+              href="https://ceramickilnelectricalhookupashevill.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Generator Interlock Kit Installation MA
+              Ceramic Kiln Electrical Hookup Asheville
             </a>
             <a
-              href="https://aluminumwiringreplacementnapervilleil.netlify.app/"
+              href="https://rvpedestalinstallationplanotx.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Aluminum Wiring Replacement Naperville IL
+              RV Pedestal Installation Plano TX
             </a>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Chesapeake Repiping Pros. All rights reserved.
+            © {new Date().getFullYear()} Fort Wayne Sump Solutions. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

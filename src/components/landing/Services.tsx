@@ -1,24 +1,24 @@
-import { RefreshCw, Search, PaintBucket, CheckCircle, ArrowRight } from "lucide-react";
+import { BatteryCharging, Activity, Zap, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: RefreshCw,
-    title: "Whole House Repipe",
-    description: "Systematic removal of all polybutylene pipes and replacement with Uponor PEX-A or Grade L Copper. We start at the main meter and finish at every fixture.",
-    features: ["Turnkey repiping solution", "Minimal wall opening", "New shut-off valves"],
+    icon: BatteryCharging,
+    title: "Backup System Install",
+    description: "Installation of specialized deep-cycle AGM or maintenance-free batteries paired with DC backup pumps. We size the system to handle your basement's specific water volume.",
+    features: ["Smart charging controllers", "Dual-pump configuration", "Automatic switching"],
   },
   {
-    icon: Search,
-    title: "In-Depth Inspection",
-    description: "Not sure if you have Poly-B? We provide comprehensive inspections to identify acetal fittings, micro-fractures, and potential failure points.",
-    features: ["Pipe material ID", "Pressure testing", "Insurance certifications"],
+    icon: Activity,
+    title: "Discharge & Check Valve",
+    description: "Ensuring your backup pump has a dedicated or properly integrated discharge line with silent check valves to prevent backflow and cycling.",
+    features: ["Separate discharge lines", "Silent check valves", "Freeze guard protection"],
   },
   {
-    icon: PaintBucket,
-    title: "Drywall Result",
-    description: "Repiping requires opening walls, but our team includes master drywall finishers. We patch, texture, and paint so your home looks untouched.",
-    features: ["Dust containment", "Seamless texture match", "Ready for paint"],
+    icon: Zap,
+    title: "System Stress Testing",
+    description: "We don't just plug it in. We simulate power outages and flood conditions to ensure your backup kicks on instantly and pumps effectively.",
+    features: ["Load testing", "Alarm verification", "Cycle timing"],
   },
 ];
 
@@ -28,15 +28,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Turnkey Repiping Process
+            Total Basement Security
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Comprehensive Pipe Solutions
+            Reliable Backup Solutions
           </h2>
           <p className="text-muted-foreground text-lg">
-            Repiping is a major project, but it doesn't have to be a nightmare.
-            Chesapeake homeowners trust us for clean, efficient, and complete
-            polybutylene abatement.
+            A primary sump pump is only as good as its power source. Our backup
+            systems provide the redundancy every Fort Wayne homeowner needs.
           </p>
         </div>
 
